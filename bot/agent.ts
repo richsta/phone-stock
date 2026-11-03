@@ -8,4 +8,8 @@ export default defineAgent({
       { id: "fast", value: "true" },
     ],
   },
+  hosting: {
+    egressDomains: ["www.apple.com", "api.resend.com"],
+    secretNames: ["RESEND_API_KEY", "EMAIL_FROM"],
+  },
 });
